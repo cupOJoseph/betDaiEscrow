@@ -4,6 +4,10 @@ An escrow smart contract on ethereum for betting the price using DAI and uniswap
 ## Escrow.sol
 Sets an owner, hard-coded with address of DAI token to use, Friend A \ friend B, and `betAmount`.
 
+
+# Functions:
+Breakdown of the functions and what they do.
+
 ### DepositA / DepositB
 User much be one of the friends, you can only call your own deposit function, and much approve our contract to spend 5000 of your DAI before hand.
 Deposits 5000 DAI into this contract. The `setA` and `setB` variables muct be false to call this, they are set to true after calling so you can not make multiple deposits by accident. 
